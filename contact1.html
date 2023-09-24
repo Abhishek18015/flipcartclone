@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        background-color: yellowgreen;
+        color: black;
+        position: fixed;
+        border: 2px solid black;
+        margin-left: .1vw;
+        width: 99.5vw;
+        height: 8vh;
+    }
+    
+    nav {
+        width: 100vw;
+    }
+    
+    .ab {
+        display: flex;
+    }
+    
+    .ab1 {
+        display: flex;
+    }
+    
+    .ab1 ul {
+        display: flex;
+    }
+    
+    .ab1 li {
+        list-style: none;
+        padding: 10px 1rem;
+    }
+    
+    .search {
+        padding-top: 10px;
+    }
+    
+    .ac {
+        padding-top: 10px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 10px;
+        /* background-color: blue; */
+        /* padding-top: 7vh;
+        padding-bottom: 7vh; */
+        /* height: 30vh; */
+        margin-left: 25vw;
+        margin-top: 17vh;
+        width: 50vw;
+    }
+    
+    .a {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    footer {
+        display: flex;
+        height: 4vh;
+        width: 99.4vw;
+        background-color: black;
+        color: darkred;
+        justify-content: center;
+        margin-left: 0.2vw;
+        /* margin-top: 85vh; */
+        font-size: 19px;
+        font-weight: bolder;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .btn {
+        width: 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="ab">
+            <nav>
+
+                <!-- <div class="ab0"> -->
+                <div class="ab1">
+                    <img src="flipcart.png" alt=" error" width="100px" height="50px" />
+                    <ul>
+                        <li>
+                            <a href="index.html "> <input type="button" value="Home"></a>
+
+
+                            <li>
+
+                                <a href="about1.html" target="_blank"> <input type="button" value="About"></a>
+                                <li>
+
+
+                                    <a href="contact1.html" target="_blank"> <input type="button" value="Contact Us"></a>
+                                </li>
+                                <div class="search"> <input type="search bar" placeholder="Search for a Product"></div>
+                                <div class="ac"> <input type="button" textarea="search for a product" value="search">
+                                    <a href="search.html"></a>
+                                </div>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header><br><br><br><br><br>
+    <main>
+        <form>
+            <div class="container">
+                <div class="a"> Enter Your Name<input type="text" placeholder="Enter Your Name" action="required"></div><br>
+                <div class="a">Phone <input type="number only" placeholder="Enter 10 Digit Mobile Number" maxlength="10char" action="required"></div><br>
+                <div class="a">Email <input type="text" placeholder="Enter Your Email Address" formaction="required"></div><br>
+                <div class="a">
+                    <a href=""><input class="btn" type="button" value="Send">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        copyright &copy;flipcart clone
+    </footer>
+</body>
+
+
+</html>
